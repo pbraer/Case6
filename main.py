@@ -17,6 +17,15 @@ with open('input.txt','r') as f_in:
             f = urllib.request.urlopen(url)
             s = f.read()
             text = str(s)
+
             part_name = text.find("nfl-c-player-header__title")
             name = text[text.find('>',part_name)+1:text.find('</h1',part_name)]
             print(name, file = f_out)
+
+            int_name = text.find('passingInterceptions" scope="col"')
+            name_5 = text[text.find('>', int_name) + 20:text.find('</th>', int_name) - 22]
+            print(name_5, file=f_out, end=' ' * (10 - len(name_5)))
+
+            pr_name = text.find('passingPasserRating" scope="col"')
+            name_6 = text[text.find('>', pr_name) + 20:text.find('</th>', pr_name) - 22]
+            print(name_6,'0', sep='', file=f_out)
