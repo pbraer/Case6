@@ -37,3 +37,11 @@ with open('input.txt','r') as f_in:
             td_name = text.find('passingTouchdowns" scope="col"')
             name_4 = text[text.find('>', td_name) + 20:text.find('</th>', td_name) - 22]
             print(name_4, file=f_out, end=' ' * (10 - len(name_4)))
+
+            int_name = text.find('passingInterceptions" scope="col"')
+            name_5 = text[text.find('>', int_name) + 20:text.find('</th>', int_name) - 22]
+            print(name_5, file=f_out, end=' ' * (10 - len(name_5)))
+
+            pr_name = text.find('passingPasserRating" scope="col"')
+            name_6 = text[text.find('>', pr_name) + 20:text.find('</th>', pr_name) - 22]
+            print(name_6,'0', sep='', file=f_out)
