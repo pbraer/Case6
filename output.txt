@@ -1,21 +1,21 @@
-Bryce Petty
-Jimmy Garoppolo
-Matt Moore
-AJ McCarron
-Ryan Mallett
-Landry Jones
-Robert Griffin III
-Alex Tanney
-Tom Savage
-Scott Tolzien
-Mark Sanchez
-Kellen Clemens
-Ryan Nassib
-Teddy Bridgewater
-Brian Hoyer
-Matt Schaub
-Derek Anderson
-Luke McCown
-Matt Barkley
-Thad Lewis
-Sean Mannion
+Bryce Petty                               130
+Jimmy Garoppolo                           659
+Matt Moore                                645
+AJ McCarron                               109
+Ryan Mallett                              190
+Landry Jones                              108
+Robert Griffin III                        799
+Alex Tanney                               11
+Tom Savage                                181
+Scott Tolzien                             88
+Mark Sanchez                              1314
+Kellen Clemens                            350
+Ryan Nassib                               9
+Teddy Bridgewater                         1038
+Brian Hoyer                               888
+Matt Schaub                               2148
+Derek Anderson                            909
+Luke McCown                               216
+Matt Barkley                              212
+Thad Lewis                                115
+Sean Mannion                              45
