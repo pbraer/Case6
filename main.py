@@ -22,6 +22,14 @@ with open('input.txt','r') as f_in:
             name = text[text.find('>',part_name)+1:text.find('</h1',part_name)]
             print(name, file = f_out)
 
+            yds_name = text.find('passingYards" scope="col"')
+            name_3 = text[text.find('>', yds_name) + 20:text.find('</th>', yds_name) - 22]
+            print(name_3, file=f_out, end=' ' * (10 - len(name_3)))
+
+            td_name = text.find('passingTouchdowns" scope="col"')
+            name_4 = text[text.find('>', td_name) + 20:text.find('</th>', td_name) - 22]
+            print(name_4, file=f_out, end=' ' * (10 - len(name_4)))
+
             int_name = text.find('passingInterceptions" scope="col"')
             name_5 = text[text.find('>', int_name) + 20:text.find('</th>', int_name) - 22]
             print(name_5, file=f_out, end=' ' * (10 - len(name_5)))
